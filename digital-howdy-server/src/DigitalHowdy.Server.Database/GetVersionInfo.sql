@@ -1,0 +1,4 @@
+SELECT
+    Version
+FROM 
+    VersionInfo;

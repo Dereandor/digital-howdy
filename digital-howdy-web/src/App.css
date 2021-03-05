@@ -1,0 +1,87 @@
+.App {
+  height: 100%;
+  background-image: url("./assets/mountain.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.App > .pager {
+  height: calc(100% - 49px);
+}
+
+.content {
+  height: 100%;
+}
+
+/* MOBILE DESIGN */
+@media only screen and (max-width: 768px) {
+  .content {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .App > .pager {
+    height: calc(100% - 36px);
+  }
+
+  .App {
+    height: 100vh;
+    background-position: top;
+  }
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.slide-enter {
+  transform: translateX(100%);
+}
+.slide-enter-active {
+  transform: translateX(0%);
+  transition: transform 800ms ease-in-out;
+}
+.slide-exit {
+  transform: translateX(0%);
+}
+.slide-exit-active {
+  transform: translateX(-100%);
+  transition: transform 800ms ease-in-out;
+}
+
+div.transition-group {
+  position: relative;
+}
+
+section.route-section {
+  position: absolute;
+  margin-top: 49px;
+  width: 100%;
+  height: calc(100% - 49px);
+  top: 0;
+  left: 0;
+}
+
+.error-message {
+  display: block;
+  min-height: 1rem;
+  margin: 0.5rem;
+  color: rgb(148, 0, 0);
+  font-weight: bold;
+}

@@ -1,0 +1,48 @@
+.dashboard {
+    background-color: lightgray;
+    height: 100vh;
+}
+
+main {
+    margin-left: 5rem;
+}
+
+main > div {
+    padding: 1rem;
+    width: 75%;
+    min-width: 470px;
+}
+
+.dashboard-form button {
+    color: white;
+    background: #272f61;
+    border-radius: 2rem;
+    border: 0;
+    width: 100px;
+    height: 2.5rem;
+    padding: 0px;
+    font-size: 1rem;
+    margin: 0.5rem;
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+button:disabled {
+    cursor: initial;
+    background: #323547;
+}
+
+.dashboard-form input {
+    width: 60%;
+    max-width: 500px;
+    margin: 0.5rem;
+}
+
+.dashboard-form {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        margin: 0;
+    }
+}

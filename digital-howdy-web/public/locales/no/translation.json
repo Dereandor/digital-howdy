@@ -1,0 +1,43 @@
+{
+    "welcome": {
+        "welcome": "Velkommen til",
+        "scan": "Skann denne koden for å registrere på mobil"
+    },
+
+    "registration": {
+        "please": "Vennligst registrer ditt besøk",
+        "phone": "Telefonnummer:",
+        "name": "Fult navn:",
+        "organization": "Ditt firma:",
+        "employee": "Ansatt du besøker:",
+        "disclaimer": "Ved å klikke 'Send', samtykker du å la TietoEvry lagre informasjonen din for fremtidige besøk og også lagre tiden og datoen av ditt besøk",
+        "button": "S E N D",
+        "autocomplete": "Begynn å skrive..."
+    },
+
+    "printing": {
+        "please": "Vennligst vent mens identifikasjon printes ut..."
+    },
+
+    "finished": {
+        "done": "Ferdig!",
+        "disclaimer": "Vennligst bruk ID lappen og husk å sjekke ut i resepsjonen når du drar. ",
+        "button": "H J E M"
+    },
+
+    "header": {
+        "lang": "NO"
+    },
+
+    "dashboard": {
+        "reference": "Referanse",
+        "search": "Søk her...",
+        "go": "Søk",
+        "check-in": "Innsjekk",
+        "check-out": "Utsjekk",
+        "name": "Navn",
+        "phone": "Telefonnummer",
+        "organization": "Organisasjon",
+        "employee": "Ansatt"
+    }
+}

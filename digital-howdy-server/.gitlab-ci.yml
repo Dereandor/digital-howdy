@@ -1,0 +1,35 @@
+image: mcr.microsoft.com/dotnet/core/sdk:3.1
+
+services:
+  - mysql:5.5
+
+variables:
+  MYSQL_DATABASE: supertestdb
+  MYSQL_ROOT_PASSWORD: secret
+
+stages:
+  - build
+  - test
+
+build:
+  stage: build
+  before_script: 
+    - echo | dotnet --version
+  only:
+    - merge_requests
+  script:
+    - echo "Starting build"
+    - cd ./src
+    - dotnet restore
+    - dotnet build --no-restore
+    - echo "Build completed"
+
+test:
+  stage: test
+  only:
+    - merge_requests
+  script:
+    - echo "Starting tests"
+    - cd ./src
+    - dotnet test
+    - echo "Tests completed"

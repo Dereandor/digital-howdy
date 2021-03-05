@@ -1,0 +1,68 @@
+.content-finished {
+    background-image: url("../../assets/mountain.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: calc(100% - 49px);
+    display: grid;
+    place-items: center;
+}
+
+.action-header-finished {
+    text-align: center;
+    font-size: 48px;
+    color: black;
+    margin: 4rem 0;
+}
+
+.center-finished {
+    display: grid;
+    place-items: center;
+    border-radius: 22px;
+    width: 38%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    background-color: #0c0c0c94;
+}
+
+.center-all {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.check-image {
+    max-width: 20%;
+}
+
+.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.secondary {
+    color: #ffffff;
+}
+
+.information{
+    font-size: 24px;
+    margin-top: 150px;
+}
+
+/* MOBILE DESIGN**/
+@media only screen and (max-width: 768px) {
+    .information {
+        font-size: 16px;
+        margin-top: 100px;
+    }
+
+    .check-image {
+        max-width: 40%;
+    }
+}

@@ -1,0 +1,35 @@
+.info-message {
+    display: block;
+    margin: 0.5rem;
+    background-color: green;
+    color: white;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    min-width: 20rem;
+    width: max-content;
+    border-radius: 0.5rem;
+}
+
+.info-message[value-hidden=true] {
+    visibility: hidden;
+}
+
+.close-button {
+    float: right;
+    display: block;
+    color: white;
+    margin: 0 2rem;
+}
+
+.close-button i {
+    position: absolute;
+    z-index: 999;
+    margin: 0 2rem;
+}
+
+.info-message:hover {
+    cursor: pointer;
+    background-color: rgb(3, 95, 3);
+}

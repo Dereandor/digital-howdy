@@ -1,0 +1,31 @@
+{
+    "welcome": {
+        "welcome": "Välkommen till",
+        "scan": "Skanna den här koden för att registrera dig på mobilen"
+    },
+
+    "registration": {
+        "please": "Vänligen registrera ditt besök",
+        "phone": "Telefonnummer:",
+        "name": "Fullständiga namn:",
+        "organization": "Din organisation:",
+        "employee": "Anställd att besöka:",
+        "disclaimer": "Genom att klicka på 'Skicka' godkänner du att låta TietoEVRY lagra din information för framtida registreringar samt registrera tid och datum för ditt besök.",
+        "button": "S K I C K A",
+        "autocomplete": "Börja skriva..."
+    },
+
+    "printing": {
+        "please": "Vänta medan identifiering skrivs ut..."
+    },
+
+    "finished": {
+        "done": "Gjort!",
+        "disclaimer": "Vänligen sätt på din ID-etikett och kom ihåg att checka ut i receptionen när du lämnar. ",
+        "button": "H E M"
+    },
+
+    "header": {
+        "lang": "SV"
+    }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head title="Digital Howdy">
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <img class="logo" src="img/logo.png" alt="TietoEVRY" />
+            <div class="dropdown">
+                <a class="lang">EN</a>
+                <img class="globe" src="img/globe.png" alt="globe" />
+                <div class="dropdown-content" style="right: 0">
+                    <a href="#">Norsk</a>
+                    <a href="#">Svensk</a>
+                    <a href="#">Dansk</a>
+                    <a href="#">Suomi</a>
+                    <a href="#">Deutsch</a>
+                    <a href="#">Français</a>
+                    <a href="#">Español</a>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="center">
+                <div class="container">
+                    <p class="action-header"><b>Please</b> register your visit</p>
+                    <form
+                        class="form"
+                        autocomplete="off"
+                        onsubmit="onSubmit(event)"
+                    >
+                        <label for="phone">Phone number:</label><br />
+                        <input
+                            type="text"
+                            id="phone"
+                            name="phone"
+                            required
+                            onkeypress="return isNumberKey(event)"
+                        /><br />
+                        <label for="name">Full Name:</label><br />
+                        <input type="text" id="name" name="name" required /><br />
+                        <label for="organization">Your Organization:</label><br />
+                        <input
+                            type="text"
+                            id="organization"
+                            name="organization"
+                            required
+                        /><br />
+                        <label for="employee">Employee to visit:</label><br />
+                        <div class="autocomplete">
+                            <input
+                                autocomplete="false"
+                                class="autocomplete"
+                                id="myInput"
+                                type="text"
+                                name="employee"
+                                placeholder="Start typing..."
+                                required
+                            />
+                        </div>
+                        <div class="center">
+                            <p class="disclaimer">
+                                By clicking 'Submit', you agree to let TietoEVRY
+                                store your information for future registrations, as
+                                well as record the time and date of your visit.
+                            </p>
+                            <button type="submit">S U B M I T</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        autocomplete(document.getElementById("myInput"), employees);
+    </script>
+</html>

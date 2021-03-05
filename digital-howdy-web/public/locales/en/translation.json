@@ -1,0 +1,76 @@
+{
+    "welcome": {
+        "welcome": "Welcome to",
+        "scan": "Scan this code to register on mobile"
+    },
+
+    "registration": {
+        "please": "Please register your visit",
+        "phone": "Phone number:",
+        "name": "Full Name:",
+        "organization": "Your Organization:",
+        "employee": "Employee to visit:",
+        "disclaimer": "By clicking 'Submit', you agree to let TietoEVRY store your information for future registrations, as well as record the time and date of your visit.",
+        "button": "S U B M I T",
+        "autocomplete": "Start typing..."
+    },
+
+    "printing": {
+        "please": "Please wait while identification is being printed..."
+    },
+
+    "finished": {
+        "done": "All done!",
+        "disclaimer": "Please put on your ID label, and remember to checkout at the reception as you're leaving. ",
+        "button": "H O M E"
+    },
+
+    "header": {
+        "lang": "EN"
+    },
+
+    "dashboard": {
+        "header": "Logs",
+        "reference": "Reference",
+        "search": "Search...",
+        "go": "Go",
+        "check-in": "Check-In",
+        "check-out": "Check-Out",
+        "name": "Name",
+        "phone": "Phone",
+        "organization": "Organization",
+        "employee": "Employee",
+        "currently-in": "Currently In"
+    },
+
+    "checkout": {
+        "header": "Check out visitor",
+        "phone": "Phone number:",
+        "name": "Full Name:",
+        "organization": "Organization:",
+        "button": "Go",
+        "check-in": "Time of Check-In:",
+        "no-visit": "No visitor was found.",
+        "success": "was successfully checked out!"
+    },
+
+    "admins": {
+        "header": "Administrators",
+        "username": "Username:",
+        "password": "Password:",
+        "confirm-password": "Confirm password:",
+        "submit": "Go",
+        "success": "was successfully added as administrator!",
+        "username2": "Username",
+        "delete": "Delete",
+        "this-is-you": "This is you"
+    },
+
+    "event-log": {
+        "header": "Event Log",
+        "date": "Date",
+        "description": "Description",
+        "search": "Search...",
+        "go": "Go"
+    }
+}

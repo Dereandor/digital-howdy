@@ -1,0 +1,4 @@
+{
+    "apiBaseUrl": "https://localhost:5001/api",
+    "qrUrl": "https://localhost:5001/api"
+}

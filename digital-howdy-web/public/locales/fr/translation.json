@@ -1,0 +1,31 @@
+{
+    "welcome": {
+        "welcome": "Bienvenue à",
+        "scan": "Scannez ce code pour vous inscrire sur mobile"
+    },
+
+    "registration": {
+        "please": "Veuillez enregistrer votre visite",
+        "phone": "Numéro de téléphone:",
+        "name": "Nom complet:",
+        "organization": "Ton organisation:",
+        "employee": "Employé à visiter:",
+        "disclaimer": "En cliquant sur 'Soumettre', vous acceptez de laisser TietoEVRY stocker vos informations pour de futures inscriptions, ainsi que d'enregistrer l'heure et la date de votre visite.",
+        "button": "S O U M E T T R E",
+        "autocomplete": "Commencer à écrire..."
+    },
+
+    "printing": {
+        "please": "Veuillez patienter pendant l'impression de l'identification..."
+    },
+
+    "finished": {
+        "done": "Terminé!",
+        "disclaimer": "Veuillez apposer votre étiquette d'identité et n'oubliez pas de payer à la réception en partant. ",
+        "button": "D O M I C I L E"
+    },
+
+    "header": {
+        "lang": "FR"
+    }
+}

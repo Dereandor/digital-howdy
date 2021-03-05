@@ -1,0 +1,52 @@
+.container {
+    text-align: center;
+    border-radius: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    background-color: #0c0c0c94;
+    width: 48%;
+    min-width: 400px;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+.container>* {
+    width: 65%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 44px;
+    color: rgb(235, 235, 235);
+    margin: 4rem 0;
+}
+
+.center {
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.center-center {
+    place-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.secondary {
+    color: #777777;
+}
+
+/* MOBILE DESIGN**/
+@media only screen and (max-width: 768px) {
+    .heading {
+        font-size: 22px;
+        margin: 2rem 0;
+    }
+
+    .container>* {
+        width: 80%;
+    }
+}

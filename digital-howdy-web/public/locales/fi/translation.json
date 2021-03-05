@@ -1,0 +1,31 @@
+{
+    "welcome": {
+        "welcome": "Tervetuloa",
+        "scan": "Skannaa tämä koodi rekisteröityäksesi matkapuhelimeen"
+    },
+
+    "registration": {
+        "please": "Rekisteröi vierailusi",
+        "phone": "Puhelinnumero:",
+        "name": "Koko nimi:",
+        "organization": "Organisaatiosi:",
+        "employee": "Työntekijä vierailla:",
+        "disclaimer": "Napsauttamalla Lähetä-painiketta, annat TietoEVRYn tallentaa tietosi tulevia rekisteröintejä varten sekä tallentaa vierailusi ajan ja päivämäärän.",
+        "button": "L Ä H E T Ä",
+        "autocomplete": "Aloita kirjoittaminen..."
+    },
+
+    "printing": {
+        "please": "Odota, kun henkilötodistusta tulostetaan ..."
+    },
+
+    "finished": {
+        "done": "Tehty!",
+        "disclaimer": "Ole hyvä ja aseta henkilötodistuksesi ja muista kirjautua ulos vastaanotosta lähtiessäsi.",
+        "button": "K O T I"
+    },
+
+    "header": {
+        "lang": "FI"
+    }
+}

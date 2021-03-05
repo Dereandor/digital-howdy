@@ -1,0 +1,31 @@
+{
+    "welcome": {
+        "welcome": "Velkommen til",
+        "scan": "Scan denne kode for at registrere dig på mobilen"
+    },
+
+    "registration": {
+        "please": "Registrer venligst dit besøg",
+        "phone": "Telefonnummer:",
+        "name": "Fulde navn:",
+        "organization": "Din organisation:",
+        "employee": "Medarbejder at besøge:",
+        "disclaimer": "Ved at klikke på 'Indsend' accepterer du at lade TietoEVRY gemme dine oplysninger til fremtidige registreringer samt registrere tidspunkt og dato for dit besøg. ",
+        "button": "I N D S E N D",
+        "autocomplete": "Begynd at skrive..."
+    },
+
+    "printing": {
+        "please": "Vent mens identifikation udskrives..."
+    },
+
+    "finished": {
+        "done": "Færdig!",
+        "disclaimer": "Sæt din ID-etiket på, og husk at tjekke ud i receptionen, når du rejser. ",
+        "button": "H J E M"
+    },
+
+    "header": {
+        "lang": "DA"
+    }
+}

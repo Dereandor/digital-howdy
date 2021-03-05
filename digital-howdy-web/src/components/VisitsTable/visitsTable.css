@@ -1,0 +1,57 @@
+.overview-table {
+    border-spacing: 0;
+    width: 100%;
+    column-width: 100%;
+}
+
+.overview-table th {
+    padding: 0;
+    background-color: #272f61;
+    color: white;
+}
+
+.overview-table,
+.overview-table th,
+.overview-table td,
+.overview-table tr {
+    border: none;
+    text-align: left;
+    padding: 0.5rem;
+}
+
+.overview-table tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.overview-table tr {
+    background-color: white;
+}
+
+.overview-table th:hover {
+    cursor: pointer;
+}
+
+.sort-arrow {
+    float: right;
+    display: block;
+    margin: 0 0.5rem;
+}
+
+.sort-arrow-up-down,
+.sort-arrow-down,
+.sort-arrow-up {
+    visibility: hidden;
+    position: absolute;
+}
+
+.overview-table th:hover .sort-arrow-up-down {
+    visibility: visible;
+}
+
+.overview-table th[value-sort="down"] .sort-arrow .sort-arrow-down {
+    visibility: visible;
+}
+
+.overview-table th[value-sort="up"] .sort-arrow .sort-arrow-up {
+    visibility: visible;
+}

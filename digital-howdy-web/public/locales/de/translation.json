@@ -1,0 +1,31 @@
+{
+    "welcome": {
+        "welcome": "Willkommen zu",
+        "scan": "Scannen Sie diesen Code, um sich auf dem Handy zu registrieren"
+    },
+
+    "registration": {
+        "please": "Bitte registrieren Sie Ihren Besuch",
+        "phone": "Telefonnummer:",
+        "name": "Vollständiger Name:",
+        "organization": "Deine Organisation:",
+        "employee": "Zu besuchender Mitarbeiter:",
+        "disclaimer": "Durch Klicken auf 'Senden' erklären Sie sich damit einverstanden, dass TietoEVRY Ihre Informationen für zukünftige Registrierungen speichert und Uhrzeit und Datum Ihres Besuchs aufzeichnet.",
+        "button": "S E N D E N",
+        "autocomplete": "Beginne zu tippen..."
+    },
+
+    "printing": {
+        "please": "Bitte warten Sie, während der Ausweis gedruckt wird..."
+    },
+
+    "finished": {
+        "done": "Erledigt!",
+        "disclaimer": "Bitte bringen Sie Ihren Ausweis an und denken Sie daran, an der Rezeption auszuchecken, wenn Sie abreisen. ",
+        "button": "Z U H A U S E"
+    },
+
+    "header": {
+        "lang": "DE"
+    }
+}

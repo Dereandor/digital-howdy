@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head title="Digital Howdy">
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <img class="logo" src="img/logo.png" alt="TietoEVRY" />
+            <div class="dropdown">
+                <a class="lang">EN</a>
+                <img class="globe" src="img/globe.png" alt="globe" />
+                <div class="dropdown-content" style="right:0;">
+                    <a href="#">Norsk</a>
+                    <a href="#">Svensk</a>
+                    <a href="#">Dansk</a>
+                    <a href="#">Suomi</a>
+                    <a href="#">Deutsch</a>
+                    <a href="#">Français</a>
+                    <a href="#">Español</a>
+                </div>
+            </div> 
+        </div>
+        <div class="center">
+            <div class="container">
+                <p class="action-header"><b>Checkout</b> visitor</p>
+                <form
+                    class="form"
+                    autocomplete="off"
+                    onsubmit="onSubmit(event)"
+                >
+                    <label for="phone">Phone number:</label><br />
+                    <input
+                        type="text"
+                        id="phone"
+                        name="phone"
+                        required
+                        onkeypress="return onPhoneEnterKey(event)"
+                    /><br />
+                    <label for="name">Full Name:</label><br />
+                    <input type="text" id="name" name="name" readonly /><br />
+                    <label for="organization">Organization:</label><br />
+                    <input
+                        type="text"
+                        id="organization"
+                        name="organization"
+                        required
+                        readonly
+                    /><br />
+                    <div class="center">
+                        <button id="submitCheckout" type="submit" disabled>S U B M I T</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

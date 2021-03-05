@@ -1,0 +1,31 @@
+{
+    "welcome": {
+        "welcome": "Bienvenido a",
+        "scan": "Escanee este código para registrarse en el móvil"
+    },
+
+    "registration": {
+        "please": "Registre su visita",
+        "phone": "Número de teléfono:",
+        "name": "Nombre completo:",
+        "organization": "Tu organización:",
+        "employee": "Empleado a visitar:",
+        "disclaimer": "Al hacer clic en 'Enviar', acepta permitir que TietoEVRY almacene su información para futuros registros, así como registrar la hora y fecha de su visita.",
+        "button": "E N V I A R",
+        "autocomplete": "Empiecea a escribir..."
+    },
+
+    "printing": {
+        "please": "Espere mientras se imprime la identificación..."
+    },
+
+    "finished": {
+        "done": "¡Hecho!",
+        "disclaimer": "Coloque su etiqueta de identificación y recuerde pagar en la recepción cuando se vaya. ",
+        "button": "H O G A R"
+    },
+
+    "header": {
+        "lang": "ES"
+    }
+}
